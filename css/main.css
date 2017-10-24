@@ -1,7 +1,85 @@
+body{
+background-color: #fdbcb4;
+}
+
+/*Tipo de letra de título*/
 header{
   font-family: 'Pacifico', cursive
 }
 
+/*Tipo de letra dentro de imagenes*/
 div{
 font-family: 'Fredericka the Great', cursive;
+padding-left: 320px;
+/*Mueve todas las imagenes hacia la derecha añadiendole relleno*/
+}
+
+/*insertando tamaño de letra en color blanco sin subrayado */
+p{
+  font-size: 12.5px;
+  color:white;
+  text-align: justify;
+}
+
+/* Quitando subrayado automatico que nos da la etiqueta anchor */
+a{
+  text-decoration: none;
+}
+
+/*Anchura de imagen*/
+img{
+  width: 164px;
+
+}
+
+/* Efectos de color a fotos*/
+.one {
+  -webkit-filter: contrast(50%);
+  filter:contrast(50%);
+}
+
+.two {
+  -webkit-filter: contrast(50%);
+  filter:contrast(50%);
+}
+
+/*Posicionando fotos*/
+.three{
+position: relative;
+bottom: 25.9em;
+left: 15em;
+-webkit-filter: contrast(50%);
+filter:contrast(50%);
+}
+
+.four{
+position: relative;
+bottom: 25.9em;
+left: 15em;
+-webkit-filter: contrast(50%);
+filter:contrast(50%);
+}
+
+.five{
+position: relative;
+bottom: 51.9em;
+left: 29.9em;
+-webkit-filter: contrast(50%);
+filter:contrast(50%);
+}
+
+.five{
+position: relative;
+bottom: 51.9em;
+left: 29.9em;
+-webkit-filter: contrast(50%);
+filter:contrast(50%);
+}
+
+.six{
+position: relative;
+bottom: 51.9em;
+left: 29.9em;
+-webkit-filter: contrast(50%);
+filter:contrast(50%);
 }
