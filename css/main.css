@@ -7,79 +7,45 @@ header{
   font-family: 'Pacifico', cursive
 }
 
+/* Se inserto 0 para que no tenga un relleno entre el margen y el subraydo */
+h1{
+  margin-bottom: 0px;
+}
+
+/* Se crea subrayado para titulo (h1)*/
+.line{
+width: 80px;
+height: 10px;
+background-color: black;
+
+}
+
 /*Tipo de letra dentro de imagenes*/
-div{
+#container{
 font-family: 'Fredericka the Great', cursive;
-padding-left: 320px;
-/*Mueve todas las imagenes hacia la derecha añadiendole relleno*/
+width: 50%; /*encerrando las imagenes en un contendor para que la letra este dentro ello*/
+padding-top: 10px;
 }
 
-/*insertando tamaño de letra en color blanco sin subrayado */
-p{
-  font-size: 12.5px;
+/*insertando tamaño de letra de color blanco sin subrayado hacia la derecha */
+figcaption{
+  position: relative;
+  bottom: 28px;
+  right: 9px;
+  font-size: 13.5px;
   color:white;
-  text-align: justify;
+  text-align: right;
 }
 
-/* Quitando subrayado automatico que nos da la etiqueta anchor */
-a{
-  text-decoration: none;
-}
 
-/*Anchura de imagen*/
+/*Anchura de imagen con filtro para un efecto mas oscuro*/
 img{
-  width: 164px;
-
+width: 164px;
+-webkit: filter: contrast(0.4);
+ filter: contrast(0.4);
 }
 
-/* Efectos de color a fotos*/
-.one {
-  -webkit-filter: contrast(50%);
-  filter:contrast(50%);
-}
-
-.two {
-  -webkit-filter: contrast(50%);
-  filter:contrast(50%);
-}
-
-/*Posicionando fotos*/
-.three{
-position: relative;
-bottom: 25.9em;
-left: 15em;
--webkit-filter: contrast(50%);
-filter:contrast(50%);
-}
-
-.four{
-position: relative;
-bottom: 25.9em;
-left: 15em;
--webkit-filter: contrast(50%);
-filter:contrast(50%);
-}
-
-.five{
-position: relative;
-bottom: 51.9em;
-left: 29.9em;
--webkit-filter: contrast(50%);
-filter:contrast(50%);
-}
-
-.five{
-position: relative;
-bottom: 51.9em;
-left: 29.9em;
--webkit-filter: contrast(50%);
-filter:contrast(50%);
-}
-
-.six{
-position: relative;
-bottom: 51.9em;
-left: 29.9em;
--webkit-filter: contrast(50%);
-filter:contrast(50%);
+/* Se indico que tenga una efecto en line pero en bloque*/
+figure{
+  display: inline-block;
 }
