@@ -22,8 +22,8 @@ background-color: black;
 /*Tipo de letra dentro de imagenes*/
 #container{
 font-family: 'Fredericka the Great', cursive;
-width: 50%; /*encerrando las imagenes en un contendor para que la letra este dentro ello*/
-padding-top: 10px;
+width: 58%; /*encerrando las imagenes en un contendor para que la letra este dentro ello*/
+padding-top: 14px;
 }
 
 /*insertando tamaño de letra de color blanco sin subrayado hacia la derecha */
